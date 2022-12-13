@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="//code.jquery.com/ui/1.13.2/themes/base/jquery-ui.css">
+    <link rel="stylesheet" href="/resources/demos/style.css">
+    <script src="https://code.jquery.com/jquery-3.6.0.js"></script>
+    <script src="https://code.jquery.com/ui/1.13.2/jquery-ui.js"></script>
+    <script>
+      $( function() {
+    $( "#accordion" ).accordion();
+  } );
+    </script>
+    <title>JQuery</title>
+<html>
+<head>
+  <link rel="stylesheet" href="JQueryWebsite.css">
+  <link rel="stylesheet" href="JqueryWebsite.js">
+</head>
+<body>
+<div id="navbar">
+  <div><img id="logo"src="/images/alaskalogo.png"></div>
+  <button href="#" onClick="document.getElementById('content').scrollIntoView();">Home</button>
+  <button href="#" onClick="document.getElementById('checkout').scrollIntoView();">Pricing</button>
+  <button href="#" onClick="document.getElementById('footer').scrollIntoView();" onClick = "contactBigger();">Contact</button>
+  <input type="text" placeholder="Search..">
+</div>
+<div id="content">
+<div id="introContent">
+  <h1 id="cH1">Travel to Alaska Today!</h1>
+  <p id="cP1">Explore this website to find out more about pricing for hotels and travel fees. Feel free to use the navigation bar at the top of the screen to help you get around</p>
+
+</div>
+<button id="gs" onClick="document.getElementById('checkout').scrollIntoView();">Plan Your Adventure</button>
+<div id="accordion" class="accordion">
+  <h3>About Alaska</h3>
+    <div>
+      <p>
+             Alaska is a state located in the northwest corner of the United States. It is known for its beautiful natural scenery and outdoor recreational opportunities. In Alaska, you can enjoy activities such as hiking, fishing, camping, and skiing. You can also visit national parks, such as Denali National Park, to see wildlife and breathtaking landscapes. Additionally, Alaska is home to a number of unique cultural attractions, such as the Iditarod Trail Sled Dog Race and the Northern Lights.
+        </p>
+      <p>Alaska is known for its stunning landscapes, including mountains, forests, and coastlines, as well as its abundant wildlife. Additionally, the state has a rich cultural history, with many indigenous communities that offer a glimpse into the traditions and ways of life of the native people. Overall, Alaska is a must-visit destination for anyone who loves nature, adventure, and culture.
+        </p>
+    </div>
+    <h3 id="pah">Pricing Range and Housing</h3>
+    <div>
+      <p>
+        <p>
+          <label for="amount">Price range:</label>
+          <input type="text" id="amount" readonly style="border:0; color:#f6931f; font-weight:bold;">
+        </p>
+           
+          <div id="slider-range"></div>
+        <ul>
+          <li id="propertylist"><img id="img"src="https://a0.muscache.com/im/pictures/1dd51cc0-d32e-484a-8b0a-4ccf48c1b71f.jpg?im_w=720"> For <b>$50</b> a night you can stay at the Heart of Anchorage Cottage, the name sounds cooler than the place is but it's good for anybody that needs a cheap place to stay. (1 Bedroom, 1 Bath, 1 Bed)</li>
+          <li id="propertylist"><img id="img"src="https://a0.muscache.com/im/pictures/76013571-ea57-4d51-85a6-d83cbe9927e1.jpg?im_w=1200"> For <b>$100</b> a night you can have this secrete Coho Cabin all to yourself(s). (1 Bedroom, 2 Beds, 1 Bath)</li>
+          <li id="propertylist"><img id="img"src="https://a0.muscache.com/im/pictures/9bbd6b06-21a3-4f3a-aef3-7ef6fb7e9e02.jpg?im_w=1200"> For <b>$500</b> a night you can have this beautiful Stone Lantern House with a lake side view. (3 Bedroom, 6 Bed, 3.5 Bath)</li>
+          <li id="propertylist"><img id="img"src="https://a0.muscache.com/im/pictures/prohost-api/Hosting-576173311131131319/original/303f4e09-e01f-4491-92a3-77237a923f38.jpeg?im_w=720"> If you have the wallet for it, You can pay <b>$1000</b> a night for this beautiful Hillside Mansion in alaska. (4 Bedroom, 5 Bed, 2.5 Bath)</li>
+        </ul>
+      </p>
+    </div>
+
+    <h3 id="faq">Help and FAQ</h3>
+    <div>
+      <p>
+        <ol>
+          <li>What is the best time to visit Alaska?
+
+              The best time to visit Alaska depends on your interests and the type of activities you want to do. The summer months (June to August) offer the most daylight and the best weather for outdoor activities, such as hiking and fishing. However, these months also tend to be the busiest and most expensive. If you want to see the Northern Lights, the best time to visit is during the winter months (October to March). </li>
+          <li>Do I need a passport to visit Alaska?
+
+              Yes, you will need a valid passport to visit Alaska. This is because Alaska is a state of the United States, and all international travelers are required to have a passport to enter the country.</li>
+
+          <li>What is the currency used in Alaska?
+
+              The currency used in Alaska is the US Dollar. Most businesses in Alaska, including hotels and restaurants, accept major credit cards. However, it is always a good idea to have some cash on hand in case you need it.</li>
+        </ol>
+      </p>
+      <p>
+      If you have any questions please contact us at 570-223-4337, or go to https://www.alaska.gov/ for further help.
+      </p>
+    </div>
+  </div>
+</div>
+
+<div id="checkout">
+
+  <div id="widget">
+    <h1>Plan your trip now!</h1>
+   
+    <h2>Below you can choose your dates and book which hotel you want.</h2>
+    <fieldset>
+      <legend id="colorleg">Select an Air Bnb: </legend>
+      <label for="radio-1">Heart of Anchorage Cottage</label>
+      <input type="radio" name="radio-1" id="radio-1">
+      <label for="radio-2">Coho Cabin</label>
+      <input type="radio" name="radio-1" id="radio-2">
+      <label for="radio-3">Stone Lantern House</label>
+      <input type="radio" name="radio-1" id="radio-3">
+      <label for="radio-4">Hillside Mansion</label>
+      <input type="radio" name="radio-1" id="radio-4">
+    </fieldset>
+
+    <fieldset id="fieldseet">
+      <h2>How Long Are You Staying?</h2>
+      <label for="from">From</label>
+      <input type="text" id="from" name="from">
+      <label for="to">to</label>
+      <input type="text" id="to" name="to">
+    </fieldset>
+
+    <fieldset id="paymntForm">
+      <h2>Pay Now:</h2>
+      <label>First Name:</label>
+      <input type="text" placeholder="John">
+      <br>
+      <label>Last Name:</label>
+      <input type="text" placeholder="Doe">
+      <br>
+      <label>Card Number:</label>
+      <input type="number" placeholder="XXXX-XXXX-XXXX-XXXX">
+      <br>
+      <label>CVC:</label>
+      <input type="number" placeholder="420">
+      <br>
+      <label>Email:</label>
+      <input type="email" placeholder="example@netscape.net">
+      <br>
+      <label>Phone:</label>
+      <input type="number" placeholder="570-223-4337">
+    </fieldset>
+  
+  
+  </div>
+  </div>
+  <div id="photos">
+  
+  <body>
+    <div id="photo-gallery">
+      <div class="toggler">
+        <div id="effect" class="ui-widget-content ui-corner-all">
+          <h3 class="ui-widget-header ui-corner-all" id="pgTitle">Photo-Gallery</h3>
+          <a href="#" title="Husky enjoying the cool alaskan weather" id="topPic"><img src="/Jquery_Drag/Images/alaska1.png" alt="Photo of Alaska"></a>
+          <a href="#" title="A polar bear during a beautiful sunset"><img src="/Jquery_Drag/Images/alaska2.png" alt="Photo of Alaska"></a>
+          <a href="#" title="Two mountains reflecting on the water"><img src="/Jquery_Drag/Images/alaska3.png" alt="Photo of Alaska"></a>
+          <a href="#" title="The colder side of alaska" id="bottomPic"><img src="/Jquery_Drag/Images/alaska4.png" alt="Photo of Alaska"></a>
+          <a href="#" title="Crystal river in a valley"><img src="/Jquery_Drag/Images/alaska5.png" alt="Photo of Alaska"></a>
+        </div>
+      </div>
+       
+      <select name="effects" id="effectTypes">
+        <option value="blind">Blind</option>
+        <option value="bounce">Bounce</option>
+        <option value="clip">Clip</option>
+        <option value="drop">Drop</option>
+        <option value="explode">Explode</option>
+        <option value="fade">Fade</option>
+        <option value="fold">Fold</option>
+        <option value="highlight">Highlight</option>
+        <option value="puff">Puff</option>
+        <option value="pulsate">Pulsate</option>
+        <option value="shake">Shake</option>
+      </select>
+       
+      <button id="button" class="ui-state-default ui-corner-all">Run Effect</button>
+
+
+    </div>
+  </body>
+</html>
+</div>
+
+   
+<div id="footer">
+  | Copyright 2022 |
+
+  Onyx Industries |
+
+  570-223-4337 |
+
+  urabozo@netscape.net |
+</div>
+</body>
+</html>

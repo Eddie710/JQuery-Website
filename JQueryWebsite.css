@@ -1,0 +1,226 @@
+body {
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+
+
+}
+
+#navbar {
+   background-color: #333; 
+   width: 100%; 
+   height: 50px; 
+   display: flex; 
+   align-items: center; 
+   border-right: -2px solid rgb(113,113,113);
+   border: 2px solid rgb(113,113,113);
+   position: sticky;
+   position: -webkit-sticky;
+   top: 0;
+   z-index: 5;
+  }
+
+#navbar button {
+   background-color: rgb(37, 37, 37);
+   text-decoration: none; 
+   padding: 0 20px;
+   margin-right: 10px;
+   border-radius: 25px;
+   color: rgb(194, 194, 194);
+   
+   }
+
+#navbar button:hover {
+  background-color: rgb(0, 0, 0); 
+  border-radius: 25px; 
+}
+
+#content { 
+  padding: 20px; 
+}
+
+#footer {
+   background-color: #333; 
+   color: #fff; 
+   height: 50px; 
+   text-align: center; 
+   line-height: 50px; 
+   border: 1px solid rgb(113, 113, 113);
+
+  } 
+
+#content{
+    background-image: url("/Jquery_Drag/Images/alaska.png");
+    background-repeat:no-repeat;
+    background-position: center center; 
+    height: fit-content;
+}
+
+#logo{
+  width: 50px;
+  height: 50px;
+}
+
+#gs{
+  border: 1px solid grey;
+}
+
+#gs button:hover{
+    background-color: #333;
+    cursor: pointer;
+}
+
+#introContent{
+    background-color: rgba(59, 59, 59, 0.645);
+    width: 75%;
+    border-radius: 25px;
+    margin-left: 12%;
+    margin-right: 12%;
+}
+
+#cH1{
+    color: rgb(244, 180, 231);
+    text-align: center;
+}
+
+#cP1{
+    color: rgb(240, 239, 240);
+    text-align: center;
+   
+}
+
+#gs{
+    margin-top: 20px;
+    margin-left:42%;
+    background-color: rgb(55, 95, 225); /* Green */
+    border: none;
+    color: rgb(217, 217, 217);
+    padding: 15px 36px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    cursor: pointer;
+    
+
+}
+
+#accordion{
+    margin-top: 25px;
+    width: 1000px;
+    margin-left: 16%;
+    margin-bottom: 30px;
+}
+
+#propertylist{
+    list-style: none;
+    background-color: rgba(51, 51, 51, 0.381);
+    border: 1px solid black;
+}
+
+#img{
+    width: 20px;
+    height: 20px;
+}
+
+#img:hover{
+    width: 200px;
+    height: 200px;
+    transition: 1s;
+}
+
+#checkout{
+  background-image: url("/Jquery_Drag/Images/meeaaaaan.png");
+  background-repeat:no-repeat;
+    background-position: center center; 
+    height: 1400px;
+    margin-top: -22px;
+    border: 5px solid black;
+    height: fit-content;
+    
+  
+}
+
+#widget{
+  width: 700px;
+  height: fit-content;
+  background-color: rgba(209, 127, 11, 0.381);
+  margin-left: 27%;
+  color: #3a1eab;
+  text-align: center;
+  border: 1px solid rgb(210, 210, 210);
+  margin-top: 100px;
+  margin-bottom: 100px;
+}
+
+#checkIntro{
+  margin-left: 40%;
+  margin-right: 40%;
+  color: white;
+  text-align: center;
+}
+
+#colorleg{
+  color: black;
+}
+
+#label{
+  color: rgb(255, 255, 255);
+}
+
+#paymntForm.input{
+  margin-bottom: 10px;
+}
+
+#photos{
+  background-image: url("/Jquery_Drag/Images/backgroundBlurry.png");
+  background-repeat:no-repeat;
+    background-position: center center; 
+    height: fit-content;
+}
+
+#photo-gallery {
+        width: 800px;
+        height: 600px;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        margin-left: 25%;
+      }
+      #photo-gallery img {
+        width: 200px;
+        height: 150px;
+        margin: 10px;
+        transition: transform 0.5s;
+        border: 2px solid rgb(105, 5, 5);
+       
+      }
+      #photo-gallery img:hover {
+        transform: scale(2);
+      }
+
+      html{
+        scroll-behavior: smooth;
+      }
+      
+      #topPic{
+        margin-left: 60px;
+      }
+      #bottomPic{
+        margin-left: 180px;
+      }
+
+      #effect{
+        background-color: rgba(51, 51, 51, 0);
+        border: none;
+      }
+
+      #pgTitle{
+        background-color: rgba(51, 51, 51, 0);
+        border: none;
+        text-align: center;
+        font-size: 30px;
+        color: rgb(90, 0, 0);
+      }
+      
