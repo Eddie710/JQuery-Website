@@ -50,7 +50,7 @@ body {
   } 
 
 #content{
-    background-image: url("/Jquery_Drag/Images/alaska.png");
+    background-image: url("/Images/alaska.png");
     background-repeat:no-repeat;
     background-position: center center; 
     height: fit-content;
@@ -130,7 +130,7 @@ body {
 }
 
 #checkout{
-  background-image: url("/Jquery_Drag/Images/meeaaaaan.png");
+  background-image: url("/Images/meeaaaaan.png");
   background-repeat:no-repeat;
     background-position: center center; 
     height: 1400px;
@@ -173,7 +173,7 @@ body {
 }
 
 #photos{
-  background-image: url("/Jquery_Drag/Images/backgroundBlurry.png");
+  background-image: url("/Images/backgroundBlurry.png");
   background-repeat:no-repeat;
     background-position: center center; 
     height: fit-content;
