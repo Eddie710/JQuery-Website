@@ -50,7 +50,7 @@ body {
   } 
 
 #content{
-    background-image: url("/alaska.png");
+    background-image: url("./alaska.png");
     background-repeat:no-repeat;
     background-position: center center; 
     height: fit-content;
@@ -130,7 +130,7 @@ body {
 }
 
 #checkout{
-  background-image: url("/meeaaaaan.png");
+  background-image: url("./meeaaaaan.png");
   background-repeat:no-repeat;
     background-position: center center; 
     height: 1400px;
@@ -173,7 +173,7 @@ body {
 }
 
 #photos{
-  background-image: url("/backgroundBlurry.png");
+  background-image: url("./backgroundBlurry.png");
   background-repeat:no-repeat;
     background-position: center center; 
     height: fit-content;
